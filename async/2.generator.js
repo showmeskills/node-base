@@ -16,15 +16,15 @@
 // { value: '123', done: true }
 
 
-function* read(){
-    let a = yield 'vue'; 
-    console.log(a);
-    let b = yield 'react';
-    console.log(b);
-    let c = yield 'node';
-    console.log(c);
-    return "123";
-}
+// function* read(){
+//     let a = yield 'vue'; 
+//     console.log(a);
+//     let b = yield 'react';
+//     console.log(b);
+//     let c = yield 'node';
+//     console.log(c);
+//     return "123";
+// }
 
 // let it = read(); // it.next() {value, done} 1. 调用 read 啥都没有
 // console.log(it.next()); // 遇到yield就停止时没有赋值 2.第一次调用next是无意的
